@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Potato Head
+	</title>
+
+		<script>
+				function validate(val) 
+				{				
+						var checkBox = document.getElementById(val);
+						var bodyPart = document.getElementById(val+"-img");
+						if (checkBox.checked) {
+							bodyPart.style.display = "block";
+							document.getElementById("message").innerHTML = "We revealed Mr. Potato's "+ val;
+
+				        } 
+				        else{
+							bodyPart.style.display = "none";				        	
+							document.getElementById("message").innerHTML = "We hid Mr. Potato's "+ val;
+				        }
+        		}	
+        </script>
+
+	<style type="text/css">
+		#parts{
+			clear: both;
+			max-width: 100px;
+			float: left;
+			margin-left: 40px; 
+			margin-top: 80px;
+
+		}
+		#picturebox{
+			border: 1px solid black;
+			width:400px;
+			height: 480px;
+			position: absolute;
+			margin-left: 400px;
+			margin-top: 0px;
+
+		}
+		#picturebox img{
+			position: absolute;
+			display:none;
+		}
+
+
+	</style>
+</head>
+<body>
+	<center>
+		<h1><b>Mr. Potato Head</b></h1><br>
+		<div id="message">
+			Mr. Potato is not visible.
+		</div>
+
+
+	</center>
+
+
+
+  <fieldset id ="parts"> 
+    <legend>Parts</legend>
+    <input type="checkbox" id = "arms" onchange="validate(this.id)">Arms<br>
+    <input type="checkbox" id ="ears" onchange="validate(this.id)">Ears<br>
+    <input type="checkbox" id= "eyes" onchange="validate(this.id)">Eyes<br>
+    <input type="checkbox" id = "mouth" onchange="validate(this.id)">Mouth<br>
+    <input type="checkbox" id = "nose" onchange="validate(this.id)">Nose<br>
+    <input type="checkbox" id = "eyebrows" onchange="validate(this.id)">Eyebrows<br>
+    <input type="checkbox" id = "glasses" onchange="validate(this.id)">Glasses<br>
+    <input type="checkbox" id="hat" onchange="validate(this.id)">Hat<br>
+    <input type="checkbox" id = "moustache" onchange="validate(this.id)">Mustaches<br>
+    <input type="checkbox" id = "shoes" onchange="validate(this.id)">Shoes<br>
+  </fieldset>
+
+		<div id="picturebox">
+					
+			<img src="Files/body.png" id="body-img" style="margin:50px 0 0 20px;z-index: -80;display: block">
+				<img src="Files/hat.png" id="hat-img" style="margin: 60px 0 0 120px; ">
+				<img src="Files/ears.png" id="ears-img" style="margin:150px 0 0 80px;">
+				<img src="Files/arms.png" id="arms-img" style="margin:220px 0 0 47px;">
+				<img src="Files/eyes.png" id= "eyes-img" style="margin:170px 0 0 140px;">
+				<img src="Files/eyebrows.png" id="eyebrows-img" style="margin:140px 0 0 120px;">
+				<img src="Files/glasses.png" id="glasses-img" style="margin:160px 0 0 110px;">
+				<img src="Files/nose.png" id="nose-img" style="margin:220px 0 0 140px;">
+				<img src="Files/mouth.png" id="mouth-img" style="margin:280px 0 0 130px;">
+				<img src="Files/moustache.png" id="moustache-img" style="margin:240px 0 0 100px;">
+				<img src="Files/shoes.png" id="shoes-img" style="margin:345px 0 0 65px;">
+
+
+		</div>
+
+
+</body>
+</html>

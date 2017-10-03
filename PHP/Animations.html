@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Animations
+	</title>
+		<script type="text/javascript" src= "jquery-3.2.1.min.js">	</script>
+
+		<script>
+
+				function move(){
+					  var rocket = document.getElementById("rocket");   
+					  var val = parseInt(rocket.style.marginTop);
+					  rocket.style.marginTop = (val - 10) + 'px';											
+
+					}	
+        </script>
+
+	<style type="text/css">
+	#rocket{
+		margin: 500px 400px 0 500px;
+	}
+	</style>
+</head>
+<body>
+
+<img src="rocket.png"  id = "rocket" style = "margin-top: 500px" "width="100" height="100" onmousehover= "move()"+>	
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 04 Oct 2017 23:39:12 at http://html.physcode.com/travel/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://html.physcode.com/travel/ -O1 "C:\Users\uroosa\Desktop\temp1" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+23:41:55	Error: 	"Not Found" (404) at link html.physcode.com/travel/xmlrpc.php (from html.physcode.com/travel/)
+23:52:37	Error: 	"Not Found" (404) at link html.physcode.com/travel/"images/home/bg-destination.jpg" (from html.physcode.com/travel/home-4.html)
+23:52:38	Warning: 	Retry after error -4 (Connect Error) at link travelwp.physcode.com/wp-content/uploads/2017/03/brazil.jpg (from html.physcode.com/travel/destinations.html)
+23:52:39	Error: 	"Not Found" (404) at link html.physcode.com/travel/single.html" (from html.physcode.com/travel/blog.html)
+23:52:39	Warning: 	Retry after error -4 (Connect Error) at link travelwp.physcode.com/wp-content/uploads/2017/01/faq-choosing-your-holiday.jpg (from html.physcode.com/travel/travel-tips.html)
+23:52:39	Warning: 	Retry after error -4 (Connect Error) at link travelwp.physcode.com/wp-content/uploads/2017/01/faq-prep-work-for-travel.jpg (from html.physcode.com/travel/travel-tips.html)
+23:52:39	Warning: 	Retry after error -4 (Connect Error) at link travelwp.physcode.com/wp-content/uploads/2017/01/faq-medical-requirement.jpg (from html.physcode.com/travel/travel-tips.html)
+23:53:00	Warning: 	Retry after error -4 (Connect Error) at link travelwp.physcode.com/wp-content/uploads/2017/01/faq-visa-requirement.jpg (from html.physcode.com/travel/travel-tips.html)
+23:53:00	Warning: 	Retry after error -4 (Connect Error) at link travelwp.physcode.com/wp-content/uploads/2017/01/faq-travel-insurance.jpg (from html.physcode.com/travel/travel-tips.html)
+23:53:00	Warning: 	Retry after error -4 (Connect Error) at link travelwp.physcode.com/wp-content/uploads/2017/01/faq-travel-day.jpg (from html.physcode.com/travel/travel-tips.html)
+23:53:00	Warning: 	Retry after error -4 (Connect Error) at link travelwp.physcode.com/wp-content/uploads/2017/01/faq-flight-airport-reminders.jpg (from html.physcode.com/travel/travel-tips.html)
+23:53:21	Warning: 	Retry after error -4 (Connect Error) at link travelwp.physcode.com/wp-content/uploads/2017/01/faq-self-drive-reminders.jpg (from html.physcode.com/travel/travel-tips.html)
+23:53:21	Warning: 	Retry after error -4 (Connect Error) at link travelwp.physcode.com/wp-content/uploads/2017/01/faq-on-holidays.jpg (from html.physcode.com/travel/travel-tips.html)
+23:53:21	Error: 	"Not Found" (404) at link html.physcode.com/travel/single.html/ (from html.physcode.com/travel/single.html)
+23:53:21	Warning: 	Retry after error -4 (Connect Error) at link travelwp.physcode.com/wp-content/uploads/sites/2/2017/02/bg-review.png (from html.physcode.com/travel/assets/css/travel-setting-home-4.css)
+23:53:21	Error: 	"Not Found" (404) at link html.physcode.com/travel/assets/img/loader.gif (from html.physcode.com/travel/assets/css/swipebox.min.css)
+23:53:21	Warning: 	Retry after error -4 (Connect Error) at link travelwp.physcode.com/wp-content/uploads/2017/03/brazil.jpg (from html.physcode.com/travel/destinations.html)
+23:53:42	Warning: 	Retry after error -4 (Connect Error) at link travelwp.physcode.com/wp-content/uploads/2017/01/faq-choosing-your-holiday.jpg (from html.physcode.com/travel/travel-tips.html)
+23:53:42	Warning: 	Retry after error -4 (Connect Error) at link travelwp.physcode.com/wp-content/uploads/2017/01/faq-prep-work-for-travel.jpg (from html.physcode.com/travel/travel-tips.html)
+23:53:42	Warning: 	Retry after error -4 (Connect Error) at link travelwp.physcode.com/wp-content/uploads/2017/01/faq-medical-requirement.jpg (from html.physcode.com/travel/travel-tips.html)
+23:53:43	Warning: 	Retry after error -4 (Connect Error) at link travelwp.physcode.com/wp-content/uploads/2017/01/faq-visa-requirement.jpg (from html.physcode.com/travel/travel-tips.html)
+23:54:03	Warning: 	Retry after error -4 (Connect Error) at link travelwp.physcode.com/wp-content/uploads/2017/01/faq-travel-insurance.jpg (from html.physcode.com/travel/travel-tips.html)
+23:54:03	Warning: 	Retry after error -4 (Connect Error) at link travelwp.physcode.com/wp-content/uploads/2017/01/faq-travel-day.jpg (from html.physcode.com/travel/travel-tips.html)
+23:54:04	Warning: 	Retry after error -4 (Connect Error) at link travelwp.physcode.com/wp-content/uploads/2017/01/faq-flight-airport-reminders.jpg (from html.physcode.com/travel/travel-tips.html)
+23:54:04	Warning: 	Retry after error -4 (Connect Error) at link travelwp.physcode.com/wp-content/uploads/2017/01/faq-self-drive-reminders.jpg (from html.physcode.com/travel/travel-tips.html)
+23:54:24	Warning: 	Retry after error -4 (Connect Error) at link travelwp.physcode.com/wp-content/uploads/2017/01/faq-on-holidays.jpg (from html.physcode.com/travel/travel-tips.html)
+23:54:24	Warning: 	Retry after error -4 (Connect Error) at link travelwp.physcode.com/wp-content/uploads/sites/2/2017/02/bg-review.png (from html.physcode.com/travel/assets/css/travel-setting-home-4.css)
+23:54:25	Error: 	"Connect Error" (-4) after 2 retries at link travelwp.physcode.com/wp-content/uploads/2017/03/brazil.jpg (from html.physcode.com/travel/destinations.html)
+23:54:25	Error: 	"Connect Error" (-4) after 2 retries at link travelwp.physcode.com/wp-content/uploads/2017/01/faq-choosing-your-holiday.jpg (from html.physcode.com/travel/travel-tips.html)
+23:54:25	Error: 	"Connect Error" (-4) after 2 retries at link travelwp.physcode.com/wp-content/uploads/2017/01/faq-prep-work-for-travel.jpg (from html.physcode.com/travel/travel-tips.html)
+23:54:25	Error: 	"Connect Error" (-4) after 2 retries at link travelwp.physcode.com/wp-content/uploads/2017/01/faq-medical-requirement.jpg (from html.physcode.com/travel/travel-tips.html)
+23:54:25	Error: 	"Connect Error" (-4) after 2 retries at link travelwp.physcode.com/wp-content/uploads/2017/01/faq-visa-requirement.jpg (from html.physcode.com/travel/travel-tips.html)
+23:54:25	Error: 	"Connect Error" (-4) after 2 retries at link travelwp.physcode.com/wp-content/uploads/2017/01/faq-travel-insurance.jpg (from html.physcode.com/travel/travel-tips.html)
+23:54:25	Error: 	"Connect Error" (-4) after 2 retries at link travelwp.physcode.com/wp-content/uploads/2017/01/faq-travel-day.jpg (from html.physcode.com/travel/travel-tips.html)
+23:54:25	Error: 	"Connect Error" (-4) after 2 retries at link travelwp.physcode.com/wp-content/uploads/2017/01/faq-flight-airport-reminders.jpg (from html.physcode.com/travel/travel-tips.html)
+23:54:25	Error: 	"Connect Error" (-4) after 2 retries at link travelwp.physcode.com/wp-content/uploads/2017/01/faq-self-drive-reminders.jpg (from html.physcode.com/travel/travel-tips.html)
+23:54:45	Error: 	"Connect Error" (-4) after 2 retries at link travelwp.physcode.com/wp-content/uploads/2017/01/faq-on-holidays.jpg (from html.physcode.com/travel/travel-tips.html)
+23:54:46	Error: 	"Connect Error" (-4) after 2 retries at link travelwp.physcode.com/wp-content/uploads/sites/2/2017/02/bg-review.png (from html.physcode.com/travel/assets/css/travel-setting-home-4.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 15 minutes 34 seconds : 164 links scanned, 125 files written (16867777 bytes overall) [15271827 bytes received at 16350 bytes/sec], 2383975 bytes transferred using HTTP compression in 55 files, ratio 31%, 1.9 requests per connection
+(16 errors, 22 warnings, 0 messages)

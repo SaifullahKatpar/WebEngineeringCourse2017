@@ -1,13 +1,19 @@
-
+<?php
+$cookie_name = "user";
+$cookie_value = "John Doe";
+setcookie($cookie_name, $cookie_value, time() + (60), "/"); // 86400 = 1 day
+?>
 <html>
 <body>
 
-
-<form action="cookieStore.php" method="GET">
-	<input type="text" id="name" name="name"><br><br>
-	<input type="password" id="password" name="name"><br><br>
-	<input type="submit" name="submit">	
-</form>
+<?php
+if(!isset($_COOKIE[$cookie_name])) {
+    echo "Cookie named '" . $cookie_name . "' is not set!";
+} else {
+    echo "Cookie '" . $cookie_name . "' is set!<br>";
+    echo "Value is: " . $_COOKIE[$cookie_name];
+}
+?>
 
 </body>
 </html>

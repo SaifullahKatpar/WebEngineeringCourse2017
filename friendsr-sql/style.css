@@ -1,0 +1,66 @@
+
+					ul {
+					    list-style-type: none;
+					    margin: 0;
+					    padding: 0;
+					    overflow: hidden;
+					    background-color: #3385ff;
+					}
+
+					li {
+					    float: left;
+					}
+
+					li a {
+						font-family: verdana;
+					    display: block;
+					    color: white;
+					    text-align: center;
+					    padding: 16px 40px 16px 16px;
+					    text-decoration: none;
+					}
+
+					li a:hover {
+					    background-color: #0047b3;
+					}
+
+					img{
+						width:400px;
+						height: 500px;
+						margin: 10px 10px 10px 10px;
+					}
+
+
+					#images{
+
+						margin-left: 0px; 
+						font-family: verdana;
+						color:#3385ff;
+						font-size: 30px;
+
+					}
+
+					#menu{
+						margin-top: 0px;
+						width:1200px;
+					}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

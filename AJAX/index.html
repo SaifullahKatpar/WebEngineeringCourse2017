@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+
+  <script type="text/javascript">
+    function loadDoc() {
+
+    var xhttp = new XMLHttpRequest();
+
+    var responseArea = document.GetElementById('response');
+    xhttp.onreadystatechange = function() {
+
+    if (xhttp.readyState == 4 && xhttp.status == 200) {
+
+    responseArea.InnerHtml =  xhttp.responseText;
+
+    }
+
+    };
+
+    xhttp.open("GET", "file.php", true);
+
+    xhttp.send();
+
+    }
+    loadDoc();
+
+  </script>
+</head>
+<body>
+
+    <p id='response'>
+      
+    </p>
+</body>
+</html>
